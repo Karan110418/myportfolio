@@ -17,19 +17,19 @@ export const Navbar = () => {
 
         <ul>
             <li>
-                <a className='menu-item' >Home</a>
+                <a className='menu-item' href='#home1' >Home</a>
             </li>
 
             <li>
-                <a className='menu-item'>About</a>
+                <a className='menu-item' href='#about1'>About</a>
             </li>
 
             <li>
-                <a className='menu-item'>Projects</a>
+                <a className='menu-item' href='#project1'>Projects</a>
             </li>
 
             <li>
-                <a className='menu-item'>Contact Me</a>
+                <a className='menu-item' href='#contact1'>Contact Me</a>
             </li>
 
             <button className='contactbtn' onClick={()=>{}}><a href={resume} download='resume'style={{textDecoration:"none", color:"white"}}>Resume</a></button>

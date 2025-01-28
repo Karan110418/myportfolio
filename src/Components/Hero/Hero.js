@@ -4,7 +4,7 @@ import './Hero.css'
 
 export const Hero = () => {
   return (
-    <section className='hero-container'>
+    <section className='hero-container' id='home1'>
         <div className='hero-content'>
             <span>Hello,</span>
             <h2>I am Karan Front-end Developer</h2>
