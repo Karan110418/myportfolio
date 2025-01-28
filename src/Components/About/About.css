@@ -1,0 +1,25 @@
+.about{
+    width: 100vw;
+    max-width: 65rem;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 110px;
+}
+
+span{
+    font-size: 2rem;
+}
+
+@media(max-width:768px)
+{
+    .about{
+        margin-left: 80px;
+    }
+}
+
+@media(max-width:600px){
+    .about{
+        width: 600px;
+        
+    }
+}

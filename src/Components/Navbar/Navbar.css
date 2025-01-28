@@ -1,0 +1,157 @@
+.navbar{
+   background-color: black;
+    padding: 0.5rem 0;
+    position: sticky;
+    top: 0;
+    z-index: 30;
+}
+
+.nav-content{
+    max-width: 1300px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 0;
+    margin: 0 auto;
+}
+
+.logo{
+    width: 6rem;
+    height: 100%;
+    background-size: cover;
+}
+
+.nav-content ul{
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+    list-style: none;
+}
+
+.nav-content li{
+    margin: 0 1.5rem;
+}
+
+.menu-item{
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: white;
+    position: relative;
+    cursor: pointer;
+}
+
+
+.menu-item::before{
+    content: " ";
+    width: 2rem;
+    height: 0.2rem;
+    background: linear-gradient(90deg,#a99efe 0%,#7e61e7 100%);
+    border-radius: 0.5rem;
+    position: absolute;
+    bottom: -0.6rem;
+    opacity: 0;
+    transform: translateX(-1.5rem);
+    transition: all 0.3s ease;
+}
+
+.menu-item:hover::before{
+    width: 100%;
+    transform: translateX(0);
+    opacity: 1;
+}
+
+.contactbtn{
+    font-size: 0.9rem;
+    font-weight: 500;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    color: #fff;
+    background: linear-gradient(90deg,#a99efe 0%,#7e61e7 100%);
+    padding: 0.6rem 2rem;
+    border: none;
+    outline: 1.5px solid transparent;
+    border-radius: 0.2rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.contactbtn:hover{
+    color: #a99efe;
+    background: #000;
+    outline: 1.5px solid #a99efe;
+}
+
+.menu-btn{
+    width: 2.5rem;
+    height: 2.5rem;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 0.4rem;
+    color: #fff;
+    background:linear-gradient(90deg,#a99efe 0%,#7e61e7 100%) ;
+    line-height: 0;
+    cursor: pointer;
+    transition: all 0.4s ease;
+    display: none;
+}
+
+.mymenu{
+    height: 100%;
+    width: 100%;
+}
+
+.menu-btn:hover{
+    color: #a99efe;
+    background-color:#000;
+    border: 2px solid #a99efe;
+}
+
+
+@media (max-width:425px) {
+
+    .logo{
+        width: 4rem;
+        height: auto;
+    }
+    
+}
+
+@media (max-width:768px) {
+
+    .menu-btn{
+        display: block;
+    }
+
+    .navbar{
+        width: 100%;
+        background-color:black;
+    }
+
+    .nav-content{
+        width: 768px;
+    }
+
+    .nav-content ul{
+        display:flex;
+        align-items: center;
+        justify-content:center;
+    }
+    
+}
+
+@media (max-width:1325px) {
+
+    .navbar{
+        padding: 0.2rem;
+
+    }
+
+}
+
+

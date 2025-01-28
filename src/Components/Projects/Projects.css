@@ -1,0 +1,24 @@
+.projects-container{
+    margin: 4rem 0;
+    position: relative;
+}
+
+.projects-container h5{
+    font-size: 1.9rem;
+    font-weight: 600;
+    margin-bottom: 3rem;
+    margin-left: 35rem;
+}
+
+@media(max-width:768px){
+    .projects-container h5{
+            margin-left: 25rem;
+    }
+
+}
+
+@media(max-width:600px){
+    .projects-container h5{
+        margin-left: 20rem;
+    }
+}

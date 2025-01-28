@@ -1,0 +1,39 @@
+.projects_card{
+    background: #130f2a;
+    border-radius: 0.65rem;
+    border: 1.5px solid #6751b9;
+    padding: 1.5rem;
+    margin:  0 1rem;
+    margin-top: 40px;
+}
+
+.projects_card h6{
+    font-size: 1.6rem;
+    font-weight: 500;
+    margin-bottom: 0.7rem;
+}
+
+.info{
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin-bottom: 0.5rem;
+    position: relative;
+}
+
+@media(max-width:768px){
+    .projects_card{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: 100px;
+    }
+
+}
+
+@media(max-width:600px){
+    .projects_card{
+        margin-left: 15rem;
+        width: 300px;
+    }
+}
