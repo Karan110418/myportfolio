@@ -17,7 +17,7 @@ export const Navbar = () => {
 
         <ul>
             <li>
-                <a className='menu-item' href='#home1' >Home</a>
+                <a className='menu-item' href='#home1'>Home</a>
             </li>
 
             <li>

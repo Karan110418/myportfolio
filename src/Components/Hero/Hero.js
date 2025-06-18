@@ -7,8 +7,9 @@ export const Hero = () => {
     <section className='hero-container' id='home1'>
         <div className='hero-content'>
             <span>Hello,</span>
-            <h2>I am Karan Front-end Developer</h2>
-            <p>I am Skilled Web-Developer With Experience of Creating Multiple Projects.</p>
+            <h2>I am Karan</h2>
+            <p>Aspiring MERN Stack & Java Developer | Eager to Apply Technical Skills in Real-World Industry Projects
+</p>
         </div>
 
         <div className='hero-img'>
